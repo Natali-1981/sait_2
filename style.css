@@ -1,0 +1,76 @@
+body{
+   max-width: 1062px;
+   width: 100%;
+   margin: auto;
+   background: url("./img/6.jpg") no-repeat center;
+height: 100%;
+color: rgba(161, 83, 10, 1);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    margin-bottom: 300px;
+}
+
+.menu-list{
+   display: flex;
+   list-style-type: none;
+      }
+
+   .menu-item:not(:last-child) {
+    margin-right: 63px;
+    }
+
+    /menu-item a {
+        text-decoration: none;
+        color: rgba(161, 83, 10, 1);
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    .main-text {
+        font-weight: 700;
+        font-size: 53px;
+        line-height: 80px;
+    }
+
+    .quote {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        margin-left: 0;
+        opacity: 0.7;
+    }
+
+    .bitton-order{
+        all:unset;
+        padding: 22px 55px;
+        background: #f6762c;
+        border-radius: 5px;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+    }
+
+    .main {
+        background-color: #d4c4ff;
+    width: 60vw;
+    color: #fff;
+   }
+   @keyframes myAnim {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 700px;
+    }
+   }
+   .main-text {  
+      animation: myAnim 15s linear alternate infinite;
+    }
